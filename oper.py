@@ -2,22 +2,14 @@ import re
 import csv
 import os
 def CalcularIntervalo(temp):
-    reemp = (re.sub(r'x',temp,ecuacion))
-    #print('\t\t***** Calcular f(x) ****\nReemplazando ', temp , 'en la ecuacion ', ecuacion , ' = ' , reemp , '\n')
-    #print('=>',reemp)
-    #print('f(x)=',eval(reemp))
+    #code...
     return eval(reemp)
 def modxi(A,B):
     ecuacion = 'a+(b-a)/2'
-    re1 = (re.sub(r'a',A,ecuacion))
-    re2 = (re.sub(r'b',B,re1))
-    return eval(re2)
+    #code ...
 def error(A,B):
     ecuacion = '(b-a)/2'
-    re1 = (re.sub(r'a',A,ecuacion))
-    re2 = (re.sub(r'b',B,re1))
-    #print(re2)
-    return eval(re2)
+    #code ...
 ecuacion = input('Digite su ecuacion \n')
 interA = input('Digite el intervalo A \n')
 interB = input('Digite el intervalo B \n')
